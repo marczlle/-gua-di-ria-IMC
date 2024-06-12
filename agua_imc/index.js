@@ -11,9 +11,9 @@ var altura = readlineSync.questionFloat("Digite sua altura: ");
 
 // conta consumo ideal de água diário
 
-var AguaDiaria = (peso * 0.035)
+var aguaDiaria = (peso * 0.035)
 
-console.log(`Olá ${nome}, sua quantidade diária de água deve ser de: ${AguaDiaria.toFixed(3)}L`)
+console.log(`Olá ${nome}, sua quantidade diária de água deve ser de: ${aguaDiaria.toFixed(3)}L`)
 
 // cálculo imc
 
