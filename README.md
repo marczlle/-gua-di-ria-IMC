@@ -18,7 +18,7 @@ para calcular o Índice de Massa Corpórea do mesmo, dando o resultado e a situa
 
 ## Desenvolvedora
 
-Marcelle Castro
+Marcelle de Paula
 @marczlle
 
 ## Conclusão
