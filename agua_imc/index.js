@@ -1,23 +1,23 @@
 // variável padrão do readline 
 
-var readlineSync = require('readline-sync');
+let readlineSync = require('readline-sync');
 
 // variáveis
 
-var nome = readlineSync.question("Digite seu nome: ");
-var whatsapp = readlineSync.question("Digite seu número de Whatsapp: ");
-var peso =readlineSync.questionFloat("Digite seu peso: ");
-var altura = readlineSync.questionFloat("Digite sua altura: ");
+let nome = readlineSync.question("Digite seu nome: ");
+let whatsapp = readlineSync.question("Digite seu número de Whatsapp: ");
+let peso =readlineSync.questionFloat("Digite seu peso: ");
+let altura = readlineSync.questionFloat("Digite sua altura: ");
 
 // conta consumo ideal de água diário
 
-var aguaDiaria = (peso * 0.035)
+let aguaDiaria = (peso * 0.035)
 
 console.log(`Olá ${nome}, sua quantidade diária de água deve ser de: ${aguaDiaria.toFixed(3)}L`)
 
 // cálculo imc
 
-var imc = peso / (altura ** 2);
+let imc = peso / (altura ** 2);
 
 // tabela IMC
 
